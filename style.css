@@ -59,3 +59,22 @@ body {
     margin-top: -28rem;
 }
 
+/*main*/
+
+.main {
+    display: flex;
+    margin-top: 40rem;
+    margin-left: 5rem;
+    height: 50rem;
+    width: 100%;
+}
+
+.main-image {
+    width: 50%;
+    height: 50%;
+}
+
+.more p {
+    width: 70%;
+}
+
