@@ -8,14 +8,28 @@ a {
     color: black;
 }
 
+.button {
+    background-color: green;
+    border: 2px solid white;
+    border-radius: 45px;
+    color: white;
+    padding: 10px;
+}
+
+.button:hover {
+    background-color: white;
+}
+
 body {
     margin: 0;
     padding: 0;
+    
 }
 
 .container {
-    width: 100%;
     margin: 0 auto;
+    width: 100%;
+    max-width: 1170px;    
 }
 
 /* header */
@@ -41,7 +55,7 @@ body {
 .greetings {
     border: 2px solid green;
     color: white;
-    margin-top: -60rem;
+    margin-top: -50rem;
     margin-left: 10rem;
     width: 40%;
     height: 50%;
@@ -55,6 +69,10 @@ body {
     font-size: 2rem;
 }
 
+.hero-image {
+    width: 100%;
+}
+
 .hero-mask {
     margin-top: -28rem;
 }
@@ -62,19 +80,43 @@ body {
 /*main*/
 
 .main {
+    border: 2px solid green;
     display: flex;
-    margin-top: 40rem;
-    margin-left: 5rem;
+    margin-top: 30rem;
     height: 50rem;
     width: 100%;
 }
 
+.more {
+    margin-top: -10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .main-image {
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 80%;
+    border: 2px solid grey;
+    box-shadow: 0 15px 30px 0 rgba(48, 43, 43, 0.4);
 }
 
 .more p {
     width: 70%;
+}
+
+/*gallery*/
+
+.gallery {
+    background-color: darkolivegreen;
+}
+
+.hero-mask2 {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 
